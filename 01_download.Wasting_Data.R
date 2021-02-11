@@ -9,5 +9,5 @@ git config --global user.name "haydendu"
 
 {r, eval=FALSE}
 library(ggplot2)
-boxplot(data$`Average WD (%)`~Transect,data=data, main="not sure what to put here",
+boxplot(data$`Average WD (%)`~Transect,data=data, main="bruceboxplot",
         xlab="Transect", ylab="Average wasting disease %")
